@@ -57,7 +57,7 @@ public class Logma {
     }
 
     public static void esd(String tag, String msg) {
-        Logg.i(tag, msg);
+        Logg.e(tag, msg);
         Logg.writeToSD(formatter(msg));
     }
 
