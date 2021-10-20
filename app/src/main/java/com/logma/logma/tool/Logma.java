@@ -26,38 +26,38 @@ public class Logma {
     }
 
     public static void v(String tag, String msg) {
-        Logg.i(tag, msg);
+        Logg.i(tag, tag + "->" + msg);
     }
 
     public static void vsd(String tag, String msg) {
-        Logg.v(tag, msg);
+        Logg.v(tag, tag + "->" + msg);
         Logg.writeToSD(formatter(msg));
     }
 
     public static void i(String tag, String msg) {
-        Logg.i(tag, msg);
+        Logg.i(tag, tag + "->" + msg);
     }
 
     public static void isd(String tag, String msg) {
-        Logg.i(tag, msg);
+        Logg.i(tag, tag + "->" + msg);
         Logg.writeToSD(formatter(msg));
     }
 
     public static void w(String tag, String msg) {
-        Logg.i(tag, msg);
+        Logg.i(tag, tag + "->" + msg);
     }
 
     public static void wsd(String tag, String msg) {
-        Logg.w(tag, msg);
+        Logg.w(tag, tag + "->" + msg);
         Logg.writeToSD(formatter(msg));
     }
 
     public static void e(String tag, String msg) {
-        Logg.i(tag, msg);
+        Logg.i(tag, tag + "->" + msg);
     }
 
     public static void esd(String tag, String msg) {
-        Logg.e(tag, msg);
+        Logg.e(tag, tag + "->" + msg);
         Logg.writeToSD(formatter(msg));
     }
 
